@@ -19,7 +19,7 @@ p {
     font-weight: lighter;
 }
 
-.parallax-banner { 
+.parallax{ 
     /* The image used */
     background-image: url("../images/blender_image9.png");
 
