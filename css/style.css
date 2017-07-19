@@ -55,6 +55,11 @@ p {
 
 .card {
 	text-align: center;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 .card-image {
@@ -97,12 +102,10 @@ p {
 .full-size-image
 {
 	max-width:100%;
-
-
 }
 
-.custom-div {
-	
+.margin-bottom {
+	margin-bottom: 40px;
 }
 
 
@@ -114,4 +117,12 @@ p {
 	.right-navbar {
 		display: none;
 	}
+}
+
+#footer {
+	text-align: center;
+}
+
+#footer > a {
+	padding: 5px;
 }
