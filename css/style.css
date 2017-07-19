@@ -2,6 +2,8 @@ h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: lighter;
 	background-color: white;
+	margin: 30px;
+	font-size: 40px;
 }
 
 #landing-title {
@@ -9,10 +11,16 @@ h1 {
 	font-size: 60px;
 }
 
+#landing-subtitle
+{
+	margin: 10px;
+	font-size: 30px;
+}
+
 h2 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
-	font-size: 17px;
+	font-size: 20px;
 	padding: 20px;
 }
 
@@ -34,6 +42,8 @@ p {
     background-attachment: fixed;
     background-size: cover;
 }
+
+
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1024px) {
@@ -110,6 +120,10 @@ a:hover {
 
 .margin-bottom {
 	margin-bottom: 40px;
+}
+
+.navbar {
+	
 }
 
 
