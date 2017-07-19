@@ -54,12 +54,12 @@ p {
 }
 
 .card {
-	text-align: center;
+	text-align: center !important;
 	color: black;
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .card-image {
