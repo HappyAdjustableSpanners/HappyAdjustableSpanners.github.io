@@ -1,6 +1,7 @@
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
+	background-color: white;
 }
 
 #landing-title {
@@ -85,8 +86,8 @@ p {
 }
 
 #div-video-embedded {
-	padding-left: 150px;
-    padding-right: 150px;
+	max-width: 912px;
+	margin: auto;
 }
 
 .container-fluid {
@@ -95,9 +96,22 @@ p {
 
 .full-size-image
 {
-	max-width: 730px;
+	max-width:100%;
+
+
+}
+
+.custom-div {
+	
 }
 
 
+@media(max-width: 991px) {
+	.main-navbar {
+		padding-bottom: 48px;
+	}
 
+	.right-navbar {
+		display: none;
+	}
 }
